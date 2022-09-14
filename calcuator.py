@@ -3,7 +3,7 @@ cal=Tk()
 cal.title("CALCUALTOR")
 cal.geometry("350x350")
 txt=Entry()
-txt.place(x=40,y=5)
+txt.place(x=80)
 def clicked(num):
     first_num=txt.get()
     txt.delete(0,END)
